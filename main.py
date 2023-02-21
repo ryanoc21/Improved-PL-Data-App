@@ -18,10 +18,12 @@ with col2:
     st.title("Premier League Data App")
     message = """
     A Premier League app that displays important data for every squad. The data are scraped from fbref.com using
-    the BeautifulSoup module in Python. Processing was performed using pandas.  
+    the BeautifulSoup module in Python. Processing was performed using pandas. The source code can be seen [here]
+    (https://github.com/ryanoc21/Improved-PL-Data-App)
+    
     """
     st.write(message)
-    st.info("""
+    st.write("""
     NOTE: The calculations may take a while because the program scrapes the site on every iteration. 
     """)
 
